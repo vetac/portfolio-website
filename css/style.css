@@ -56,3 +56,23 @@ a:active { /* selected link */
     color: #6D6D6F;
     text-decoration: underline /* Active underlining */
 }
+
+.button {
+    display: inline-block;
+    background-color: #1C1C1E;
+    color: #FFFFFF; /* needed to override the default link color */
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid #1C1C1E; /* width of the border, type, color */
+    transition: 0.2s opacity;
+  }
+
+  .button:hover {
+    opacity: 0.8;
+    text-decoration: none;
+  }
+
+  .button:visited {
+    color:#FFFFFF;
+  }
