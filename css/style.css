@@ -69,10 +69,21 @@ a:active { /* selected link */
   }
 
   .button:hover {
-    opacity: 0.8;
-    text-decoration: none;
+    text-decoration: underline
   }
 
   .button:visited {
     color:#FFFFFF;
+  }
+
+  .button.contact {
+    background-color: #FFFFFF;
+    color: #1C1C1E;
+    text-transform: uppercase;
+    border: 2px solid #1C1C1E;
+  }
+
+  .button.contact:hover {
+    background-color: #1C1C1E;
+    color: #FFFFFF;
   }
