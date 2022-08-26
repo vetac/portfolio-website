@@ -40,18 +40,19 @@ img {
     width: 100%;
   }
 
-  a {
+a {
     color: #1C1C1E;
     text-decoration: none; /* No underlining */
-  }
-  a:hover {
+}
+a:hover,
+a:focus {
     color: #6D6D6F;
     text-decoration: underline; /* Colour change and Underlining */
-  }
-  a:visited { /* visited link */
+}
+a:visited { /* visited link */
     color: #1C1C1E;
-  }
-  a:active { /* selected link */
+}
+a:active { /* selected link */
     color: #6D6D6F;
     text-decoration: underline /* Active underlining */
-  }
+}
