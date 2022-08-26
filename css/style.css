@@ -3,7 +3,8 @@ Colors used:
 Primary Color (White Smoke): #F7F7F7;
 Secondary Color (White): #FFFFFF;
 Tertiary Color (Whisper): #EAEAEA;
-Text Color (Aesthetic Black): #1C1C1E
+Text Color (Aesthetic Black): #1C1C1E;
+Hyperlink hover (Grey): #6D6D6F;
 */
 
 body {
@@ -34,6 +35,23 @@ h4 {
     font-size: 1.35em;
     font-weight: 400; /* Font weight Regular */
 }
+
 img {
     width: 100%;
+  }
+
+  a {
+    color: #1C1C1E;
+    text-decoration: none; /* No underlining */
+  }
+  a:hover {
+    color: #6D6D6F;
+    text-decoration: underline; /* Colour change and Underlining */
+  }
+  a:visited { /* visited link */
+    color: #1C1C1E;
+  }
+  a:active { /* selected link */
+    color: #6D6D6F;
+    text-decoration: underline /* Active underlining */
   }
