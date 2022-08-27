@@ -69,7 +69,8 @@ a:active { /* selected link */
   }
 
   .button:hover {
-    text-decoration: underline
+    text-decoration: underline;
+    color: #FFFFFF; 
   }
 
   .button:visited {
