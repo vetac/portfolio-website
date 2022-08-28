@@ -96,6 +96,6 @@ a:active { /* selected link */
     color: #FFFFFF;
   }
 
-  .wireframe-test {
+  .wireframe-test, .wireframe-style {
     background-color: #FFFFFF;
   }
