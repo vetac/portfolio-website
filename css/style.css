@@ -84,6 +84,11 @@ a:active { /* selected link */
     color:#FFFFFF;
   }
 
+  #contact {
+    background-color: #1C1C1E;
+    color: #FFFFFF; 
+  }
+
   .button.contact {
     background-color: #FFFFFF;
     color: #1C1C1E;
