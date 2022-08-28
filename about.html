@@ -19,7 +19,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
   </head>
-  <body><!-- Start of Body tag -->
+<!-- Start of Body tag -->
+  <body>
     <header><!-- Header -->
       <div class="top-nav">
         <a href="index.html">
@@ -34,32 +35,36 @@
         </nav>
       </div><!-- #top-nav -->
     </header>
-    <div><!-- Top Content -->
-      <div><!-- Opening -->
+<!-- Opening -->
+    <div class="opening">
+      <div class="opening-text">
         <main>
             <h1>Hello there!
                 This is Veta
                 Glad to have you here</h1>
         </main>
       </div><!-- Opening-end -->
-    </div><!-- Top-content-end -->
-    <div><!-- Botton Content -->
-        <picture><!-- Profile Image -->
-            <source media="(max-width:767px)" srcset="img/profile-image@1x.png">
-            <img src="img/profile-image@1x.png">
-        </picture><!-- Project-image-end-->
-        <div><!-- Details -->
-          <div><!-- Who -->
-            <h2>Who am I?</h2>
-            <p>I'm a journalist and a freelance UI designer based in Toronto, Canada. I have a background in international studies, journalism, and UI design, and have been working as a journalist and a content specialist for the past 3 years.
-              Combining my background in all 3 disciplines and being a journalist with a focus on producing video content, I am well equipped with various skills such as conducting research, interviewing people, problem-solving, and creating products with consumers in mind.
-              I love to design and create things. I am interested in building solutions to help solve problems. I am eager to turn great ideas into visually appealing digital products that everyone can use.
-            </p>
+      <div class="opening-pic">
+        <picture>
+          <source media="(max-width:767px)" srcset="img/profile-image@1x.png">
+          <img src="img/profile-image@1x.png">
+      </picture>
+      </div><!-- #opening-pic -->
+    </div><!-- #opening -->
+<!-- Content -->
+    <div class="content">
+      <div>
+        <div><!-- Who -->
+          <h2>Who am I?</h2>
+          <p>I'm a journalist and a freelance UI designer based in Toronto, Canada. I have a background in international studies, journalism, and UI design, and have been working as a journalist and a content specialist for the past 3 years.
+            Combining my background in all 3 disciplines and being a journalist with a focus on producing video content, I am well equipped with various skills such as conducting research, interviewing people, problem-solving, and creating products with consumers in mind.
+            I love to design and create things. I am interested in building solutions to help solve problems. I am eager to turn great ideas into visually appealing digital products that everyone can use.
+          </p>
             <a href="#" class="button"> Here's my resume</a>
           </div><!-- Who-end -->
-          <div><!-- Skill and Tools Column -->
+          <div class="skills-tools"><!-- Skill and Tools Column -->
             <h2>Skills & Tools</h2>
-            <div><!-- Skills -->
+            <div class="skills">
               <h3>Skills</h3>
               <ul>
                 <li>UX Research</li>
@@ -74,19 +79,20 @@
                 <li>Story Telling</li>
                 <li>Video Editing</li>
               </ul>
-            </div><!-- Skills-end -->
-            <div><!-- Tools -->
+            </div><!-- #skills -->
+            <div class="tools">
               <h3>Tools</h3>
               <ul>
                 <li>Figma</li>
                 <li>Adobe XD</li>
                 <li>Adobe Premiere Pro</li>
               </ul>
-            </div><!-- Tools-end -->
-          </div><!-- Skills-amd-tolls-End -->
-        </div><!-- Details-end -->
-      </div><!-- Bottom-content-end -->
-    <footer id="contact"><!-- Footer -->
+            </div><!-- #tools -->
+          </div><!-- #skills-tools -->
+        </div>
+      </div><!-- #content -->
+<!-- Footer -->
+    <footer id="contact">
       <div><!-- Contact Info -->
         <h2>Let's Connect</h2>
         <p>Want to start off something new? Just shoot me a note!</p>
@@ -106,6 +112,6 @@
             <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg enable-background="new 0 0 56.693 56.693" height="56.693px" id="Layer_1" version="1.1" viewBox="0 0 56.693 56.693" width="56.693px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M28.348,5.157c-13.6,0-24.625,11.027-24.625,24.625c0,13.6,11.025,24.623,24.625,24.623c13.6,0,24.623-11.023,24.623-24.623  C52.971,16.184,41.947,5.157,28.348,5.157z M40.752,24.817c0.013,0.266,0.018,0.533,0.018,0.803c0,8.201-6.242,17.656-17.656,17.656  c-3.504,0-6.767-1.027-9.513-2.787c0.486,0.057,0.979,0.086,1.48,0.086c2.908,0,5.584-0.992,7.707-2.656  c-2.715-0.051-5.006-1.846-5.796-4.311c0.378,0.074,0.767,0.111,1.167,0.111c0.566,0,1.114-0.074,1.635-0.217  c-2.84-0.57-4.979-3.08-4.979-6.084c0-0.027,0-0.053,0.001-0.08c0.836,0.465,1.793,0.744,2.811,0.777  c-1.666-1.115-2.761-3.012-2.761-5.166c0-1.137,0.306-2.204,0.84-3.12c3.061,3.754,7.634,6.225,12.792,6.483  c-0.106-0.453-0.161-0.928-0.161-1.414c0-3.426,2.778-6.205,6.206-6.205c1.785,0,3.397,0.754,4.529,1.959  c1.414-0.277,2.742-0.795,3.941-1.506c-0.465,1.45-1.448,2.666-2.73,3.433c1.257-0.15,2.453-0.484,3.565-0.977  C43.018,22.849,41.965,23.942,40.752,24.817z"/></svg>
             </a>
       </div><!-- Socials -->
-    </footer><!-- Fppter-end -->
+    </footer><!-- #contact -->
   </body><!-- Body-end -->
 </html>
