@@ -5,6 +5,13 @@ Secondary Color (White): #FFFFFF;
 Tertiary Color (Whisper): #EAEAEA;
 Text Color (Aesthetic Black): #1C1C1E;
 Hyperlink hover (Grey): #6D6D6F;
+
+Culturico:
+Background Color (Dark blue): #000522;
+
+VestFree
+Background Color (Dark Blue): #071843;
+Background Color (Light Blue): #CCDAE5;
 */
 
 body {
@@ -87,4 +94,8 @@ a:active { /* selected link */
   .button.contact:hover {
     background-color: #1C1C1E;
     color: #FFFFFF;
+  }
+
+  .wireframe-test {
+    background-color: #FFFFFF;
   }
