@@ -84,7 +84,7 @@ a:active { /* selected link */
     color:#FFFFFF;
   }
 
-  #contact {
+  .contact {
     background-color: #1C1C1E;
     color: #FFFFFF; 
   }
@@ -101,6 +101,6 @@ a:active { /* selected link */
     color: #FFFFFF;
   }
 
-  .wireframe-test, .wireframe-style {
+  .wireframe {
     background-color: #FFFFFF;
   }
