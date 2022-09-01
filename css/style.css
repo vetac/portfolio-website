@@ -14,6 +14,13 @@ Background Color (Dark Blue): #071843;
 Background Color (Light Blue): #CCDAE5;
 */
 
+header {
+  background-color: #FFFFFF;
+  padding: 10px;
+  border-bottom: 3px solid #4a4a4a;
+  position:fixed;
+}
+
 body {
     background-color: #F7F7F7;
     font-family: 'Noto Sans', sans-serif;
