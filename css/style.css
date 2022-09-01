@@ -17,12 +17,65 @@ Background Color (Light Blue): #CCDAE5;
 header {
   background-color: #FFFFFF;
   text-align: center;
+  width: 100%;
   padding: 10px 0px;
-  border-bottom: 3px solid #4a4a4a;
+  position: fixed;
+  box-shadow: 0px 3px 10px 0px rgba(50, 50, 50, 0.21);
 }
 
 * {
   box-sizing: border-box;
+}
+
+/* Styling for HERO in index.html */
+#hero h1 {
+  text-align: center; /* Centers text */
+}
+
+#hero {
+  background-color: #ffe4c4;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+/* Styling to navigation */
+nav {
+  display: inline-block;
+  width: 100%;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #1C1C1E;
+}
+
+nav > ul > li > a:hover,
+nav > ul > li > a:focus {
+    color: #6D6D6F;
+    text-decoration: underline; /* Colour change and Underlining */
+}
+nav > ul > li > a:visited { /* visited link */
+    color: #1C1C1E;
+}
+nav > ul > li > a:active { /* selected link */
+    color: #6D6D6F;
+    text-decoration: underline /* Active underlining */
+}
+
+main {
+  padding-top: 133px;
 }
 
 body {
@@ -125,44 +178,10 @@ a:active { /* selected link */
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
 
-#hero h1 {
-  text-align: center; /* Centers text */
-}
 
 .logo {
   max-width: 250px;
 }
 
-nav {
-  display: inline-block;
-  width: 100%;
-}
 
-nav > ul {
-  list-style-type: none;
-  padding: 0;
-}
 
-nav > ul > li {
-  display: inline-block;
-}
-
-nav > ul > li > a {
-  padding: 0 15px;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #1C1C1E;
-}
-
-nav > ul > li > a:hover,
-nav > ul > li > a:focus {
-    color: #6D6D6F;
-    text-decoration: underline; /* Colour change and Underlining */
-}
-nav > ul > li > a:visited { /* visited link */
-    color: #1C1C1E;
-}
-nav > ul > li > a:active { /* selected link */
-    color: #6D6D6F;
-    text-decoration: underline /* Active underlining */
-}
