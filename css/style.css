@@ -16,7 +16,8 @@ Background Color (Light Blue): #CCDAE5;
 
 header {
   background-color: #FFFFFF;
-  padding: 10px;
+  text-align: center;
+  padding: 10px 0px;
   border-bottom: 3px solid #4a4a4a;
 }
 
@@ -130,4 +131,33 @@ a:active { /* selected link */
 
 .logo {
   max-width: 250px;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #1C1C1E;
+}
+
+nav > ul > li > a:hover,
+nav > ul > li > a:focus {
+    color: #6D6D6F;
+    text-decoration: underline; /* Colour change and Underlining */
+}
+nav > ul > li > a:visited { /* visited link */
+    color: #1C1C1E;
+}
+nav > ul > li > a:active { /* selected link */
+    color: #6D6D6F;
+    text-decoration: underline /* Active underlining */
 }
