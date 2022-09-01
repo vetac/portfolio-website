@@ -40,11 +40,6 @@ h1 {
     font-size: 2.75em;
     font-weight: 500; /* Font weight Medium */
 }
-
-#hero h1 {
-  text-align: center; /* Centers text */
-}
-
 h2 {
     font-size: 2.25em;
     font-weight: 500; /* Font weight Medium */
@@ -90,41 +85,49 @@ a:active { /* selected link */
     transition: 0.2s opacity;
   }
 
-  .button:hover {
-    text-decoration: underline;
-    color: #FFFFFF; 
-  }
+.button:hover {
+  text-decoration: underline;
+  color: #FFFFFF; 
+}
 
-  .button:visited {
-    color:#FFFFFF;
-  }
+.button:visited {
+  color:#FFFFFF;
+}
 
-  #contact {
-    background-color: #1C1C1E;
-    color: #FFFFFF; 
-  }
+#contact {
+  background-color: #1C1C1E;
+  color: #FFFFFF; 
+}
 
-  .button.contact {
-    background-color: #FFFFFF;
-    color: #1C1C1E;
-    text-transform: uppercase;
-    border: 2px solid #1C1C1E;
-  }
+.button.contact {
+  background-color: #FFFFFF;
+  color: #1C1C1E;
+  text-transform: uppercase;
+  border: 2px solid #1C1C1E;
+}
 
-  .button.contact:hover {
-    background-color: #1C1C1E;
-    color: #FFFFFF;
-  }
+.button.contact:hover {
+  background-color: #1C1C1E;
+  color: #FFFFFF;
+}
 
-  .wireframe {
-    background-color: #FFFFFF;
-  }
+.wireframe {
+  background-color: #FFFFFF;
+}
 
-  /* Layout styling */
-  .container {
-    padding: 0 15px;
-  }
+/* Layout styling */
+.container {
+  padding: 0 15px;
+}
 
-  .row {
-    margin: 25px 0; /* 25px top and bottom, 0 left and right */
-  }
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+
+#hero h1 {
+  text-align: center; /* Centers text */
+}
+
+.logo {
+  max-width: 250px;
+}
