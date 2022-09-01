@@ -182,5 +182,8 @@ a:active { /* selected link */
   max-width: 250px;
 }
 
-
+/* Styling for About.html */
+#conrent p {
+  text-align: right;
+}
 
