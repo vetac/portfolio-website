@@ -20,7 +20,7 @@
   </head>
   <body id="home"><!-- Start of body tag -->
     <header><!-- Header -->
-      <div class="top-nav">
+      <div class="container">
         <a href="index.html">
           <img src="img/veta-chan_Logo.svg" alt="Veta Chan">
         </a>
@@ -31,10 +31,10 @@
             <li><a href="#contact"> Contact</a></li>
           </ul>
         </nav>
-      </div> <!-- #top-nav -->
+      </div> <!-- #container -->
     </header>
-    <div class="hero">
-      <div>
+    <div id="hero">
+      <div class="container">
         <main>
           <h1>Hello there!
           <br><span>I'm Veta, a Journalist & a freelance UI Designer</span></h1>
@@ -42,38 +42,41 @@
       </main>
     </div>
     </div><!-- #hero -->
-    <div class="work">
-      <h2>My Work</h2>
-      <div>
-        <!-- Work 1 -->
-        <div><!-- Image -->
-         <picture>
-          <source srcset="img/feature-image/culturico_feature-image@1x.jpg" media="(max-width:767px)">
-          <img src="img/feature-image/culturico_feature-image@2x.jpg" alt="Culturico Feature Image">
-         </picture>
-        </div><!-- Image-end -->
-        <div><!-- Text -->
-          <h3>CULTURICO</h3>
-          <p>A visual-first travel reservation app</p>
-          <a href="culturico.html" class="button"> Take a deeper look</a>
-        </div><!-- Text-end -->
-        <!-- Work 2 -->
-        <div><!-- Image -->
+    <div id="work">
+      <div class="container">
+        <h2>My Work</h2>
+        <div class="container">
+          <!-- Work 1 -->
+          <div class="container"><!-- Image -->
           <picture>
-            <source srcset="img/feature-image/vestfree_feature-image@1x.jpg" media="(max-width:767px)">
-            <img src="img/feature-image/vestfree_feature-image@2x.jpg" alt="VestFree Feature Image">
-           </picture>
+            <source srcset="img/feature-image/culturico_feature-image@1x.jpg" media="(max-width:767px)">
+            <img src="img/feature-image/culturico_feature-image@2x.jpg" alt="Culturico Feature Image">
+          </picture>
           </div><!-- Image-end -->
-          <div> <!-- Text -->
-            <h3>VestFree</h3>
-            <p>One-stop personal financa app</p>
-            <a href="vestfree.html" class="button"> Take a deeper look</a>
-        </div><!-- Text-end -->
+          <div class="container"><!-- Text -->
+            <h3>CULTURICO</h3>
+            <p>A visual-first travel reservation app</p>
+            <a href="culturico.html" class="button"> Take a deeper look</a>
+          </div><!-- Text-end -->
+          <!-- Work 2 -->
+          <div class="container"><!-- Image -->
+            <picture>
+              <source srcset="img/feature-image/vestfree_feature-image@1x.jpg" media="(max-width:767px)">
+              <img src="img/feature-image/vestfree_feature-image@2x.jpg" alt="VestFree Feature Image">
+            </picture>
+          </div><!-- Image-end -->
+          <div class="container"> <!-- Text -->
+              <h3>VestFree</h3>
+              <p>One-stop personal financa app</p>
+              <a href="vestfree.html" class="button"> Take a deeper look</a>
+          </div><!-- Text-end -->
+        </div>
       </div>
+      
     </div><!-- #work -->
 
-    <footer class="contact">
-      <div>
+    <footer id="contact">
+      <div class="container">
         <h2>Let's Connect</h2>
         <p>Want to start off something new? Just shoot me a note!</p>
         <a href="mailto:veta.multimedia@gmail.com"  class="button contact"> Email me</a>
