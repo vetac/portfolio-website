@@ -18,7 +18,6 @@ header {
   background-color: #FFFFFF;
   padding: 10px;
   border-bottom: 3px solid #4a4a4a;
-  position:fixed;
 }
 
 * {
@@ -95,7 +94,7 @@ a:active { /* selected link */
     color:#FFFFFF;
   }
 
-  .contact {
+  #contact {
     background-color: #1C1C1E;
     color: #FFFFFF; 
   }
@@ -115,3 +114,9 @@ a:active { /* selected link */
   .wireframe {
     background-color: #FFFFFF;
   }
+
+  /* Layout styling */
+  .container {
+    padding: 0 15px;
+  }
+
