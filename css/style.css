@@ -8,6 +8,7 @@ Hyperlink hover (Grey): #6D6D6F;
 
 Culturico:
 Background Color (Dark blue): #000522;
+Light Blue: #C0EDF7;
 
 VestFree
 Background Color (Dark Blue): #071843;
@@ -150,6 +151,17 @@ a:active { /* selected link */
 #contact {
   background-color: #1C1C1E;
   color: #FFFFFF; 
+  display: inline-block;
+  padding: 20px 0;
+  width: 100%;
+}
+
+#contact .container .socials {
+  padding: 20px 0px;
+}
+
+#contact svg {
+  max-width: 44px;
 }
 
 .button.contact {
@@ -187,3 +199,99 @@ a:active { /* selected link */
   text-align: right;
 }
 
+/* Styling for culturico */
+#culturico #hero p {
+  text-align: center;
+}
+
+#culturico #hero {
+  background-color: #C0EDF7;
+  padding-bottom: 0px;
+  display: inline-block;
+}
+
+#cukturico #case-stury{
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+#culturico #skill-tool img {
+  max-width: 44px
+}
+
+#culturico #flow-design-style {
+  background-color: #FFFFFF;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+#culturico #hi-fi {
+  background-color: #000522;
+  color: #FFFFFF;
+}
+
+#culturico #design-adjustment {
+  background-color: #FFFFFF;
+  display: inline-block;
+  width: 100%;
+}
+
+#culturico #hi-fi, #final {
+  background-color: #000522;
+  color: #FFFFFF;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+/* Styling for VestFree */
+#vestfree #hero p {
+  text-align: center;
+}
+
+#vestfree #hero {
+  background-color: #071843;
+  color: #FFFFFF;
+  padding-bottom: 0px;
+  display: inline-block;
+}
+
+#vestfree #case-study {
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+#vestfree #skill-tool img {
+  max-width: 44px
+}
+
+#vestfree #design-adjustment {
+  background-color: #CCDAE5;
+  display: inline-block;
+  width: 100%;
+}
+
+#vestfree #style-guide {
+  background-color: #FFFFFF;
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+#vestfree #hi-fi-mobile {
+  background-color: #071843;
+  color: #FFFFFF;
+  display: inline-block;
+  width: 100;
+  Padding-bottom: 20px;
+}
+
+#vestfree #hi-fi-desktop {
+  background-color: #CCDAE5;
+  display: inline-block;
+  width: 100;
+  Padding: 20px 0px;
+}
