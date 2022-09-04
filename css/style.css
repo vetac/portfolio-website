@@ -136,8 +136,7 @@ a:active { /* selected link */
     padding: 10px;
     border-radius: 3px;
     border-bottom: 2px solid #1C1C1E; /* width of the border, type, color */
-    transition-duration: 0.2s;
-    transition-property: opacity;
+    transition: 0.2s opacity;
   }
 
 .button:hover {
