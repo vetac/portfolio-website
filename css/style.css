@@ -381,3 +381,24 @@ X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {
 }
+
+/* ======
+Animation
+====== */
+svg #about-picture {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.sun {
+
+}
+
+.cloud-front {
+
+}
+
+.cloud-back {
+
+}
