@@ -391,14 +391,14 @@ svg #about-picture {
   height: auto;
 }
 
+@keyframes color-change {
+  0% {fill: #edc655;}
+  50% {fill: #fcffad;}
+  100% {fill: #f76414;}
+}
+
 .sun {
-  @keyframes color-change {
-    0% {fill: #edc655;}
-    50% {fill: #fcffad;}
-    100% {fill: #f76414;}
-  }
-
-
+  animation: 4s color-change infinite alternate linear;
 }
 
 .cloud-front {
