@@ -392,7 +392,11 @@ svg #about-picture {
 }
 
 .sun {
+  @keyframes color-change {
+    from {fill: #edc655;}to {fill: #f76414;}
+  }
 
+  
 }
 
 .cloud-front {
