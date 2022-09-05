@@ -397,6 +397,10 @@ svg #about-picture {
   100% {fill: #f76414;}
 }
 
+@keyframes cloud-move {
+  from {transform: translate(0,50px);}to {transform: translate(200px,50px);}
+}
+
 .sun {
   animation: 4s color-change infinite alternate linear;
 }
