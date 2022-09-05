@@ -406,7 +406,7 @@ svg #about-picture {
 }
 
 .cloud-front {
-
+  animation: 30s cloud-move infinite alternate linear;
 }
 
 .cloud-back {
