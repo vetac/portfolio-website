@@ -401,6 +401,10 @@ svg #about-picture {
   from {transform: translate(0,50px);}to {transform: translate(200px,50px);}
 }
 
+@keyframes cloud-move-reverse {
+  from {transform: translate(446px,48px);}to {transform: translate(100px, 48px);}
+}
+
 .sun {
   animation: 4s color-change infinite alternate linear;
 }
@@ -410,5 +414,5 @@ svg #about-picture {
 }
 
 .cloud-back {
-
+  animation: 34s cloud-move-reverse infinite alternate linear;
 }
