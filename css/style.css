@@ -111,44 +111,52 @@ img {
     width: 100%;
   }
 
-a {
-    color: #1C1C1E;
-    text-decoration: none; /* No underlining */
-}
-a:hover,
-a:focus {
-    color: #6D6D6F;
-    text-decoration: underline; /* Colour change and Underlining */
-}
-a:visited { /* visited link */
-    color: #1C1C1E;
-}
-a:active { /* selected link */
-    color: #6D6D6F;
-    text-decoration: underline /* Active underlining */
-}
+  .col-md-6 .col-lg-5 .button {
 
-.button {
-    display: inline-block;
-    background-color: #1C1C1E;
-    color: #FFFFFF; /* needed to override the default link color */
-    font-weight: 400;
-    padding: 10px;
-    border-radius: 3px;
-    border-bottom: 2px solid #1C1C1E; /* width of the border, type, color */
-    transition: 0.2s opacity;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
-
-.button:hover {
-  text-decoration: underline;
-  color: #FFFFFF;
-  opacity: 0.8;
-}
-
-.button:visited {
-  color:#FFFFFF;
-}
-
+  
+  .button a{
+    display: block;
+    width: fit-content;
+    line-height: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+    border: 2px solid #000;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    padding: 0px 20px;
+    transition: all .35s;
+  }
+  
+  .button a span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .button a:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #000000;
+    transition: all .35s;
+  }
+  
+  .button a:hover{
+    color: #fff;
+  }
+  
+  .button a:hover:after{
+    width: 100%;
+  }
+  
 #contact {
   background-color: #1C1C1E;
   color: #FFFFFF; 
@@ -166,10 +174,19 @@ a:active { /* selected link */
 }
 
 .button.contact {
+  display: block;
+  width: fit-content;
+  line-height: 40px;
+  font-size: 18px;
+  text-decoration: none;
   background-color: #FFFFFF;
   color: #1C1C1E;
-  text-transform: uppercase;
-  border: 2px solid #1C1C1E;
+  border: 2px solid #FFF;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  padding: 0px 20px;
+  transition: all .35s;
 }
 
 .button.contact:hover {
@@ -358,21 +375,26 @@ Medium devices (640px and larger)
 }
 
 /* ==============================
-Large devices (1024px or larger)
+Large devices (1024px or larger) 7-5
 ================================= */
 @media only screen and (min-width: 1024px) {
-  .col-lg-6 {
-    width: 50%;
+  .col-lg-7 {
+    width: 58.33%;
   }
 
-  .col-lg-7 {
-    width: 33.33%%;
+  .col-lg-5 {
+    width: 41.66%;
   }
   
   .container {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 0px 10px;
   }
 }
 
