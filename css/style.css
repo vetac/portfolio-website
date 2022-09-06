@@ -305,7 +305,7 @@ a:active { /* selected link */
 }
 
 /* ================================
-Responsive size4 solumn pencentages
+Responsive size column pencentages
 ===================================
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -320,6 +320,8 @@ Responsive size4 solumn pencentages
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 =================================
+
+/* ================================
 Medium devices (640px and larger)
 ================================= */
 
@@ -359,12 +361,12 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
-  .col-lg-5 {
-    width: 41.66%;
+  .col-lg-6 {
+    width: 50%;
   }
 
   .col-lg-7 {
-    width: 58.33%;
+    width: 33.33%%;
   }
   
   .container {
