@@ -217,7 +217,7 @@ a:active { /* selected link */
   display: inline-block;
 }
 
-#cukturico #case-stury{
+#culturico #case-study {
   padding: 20px 0;
   display: inline-block;
   width: 100%;
@@ -374,8 +374,6 @@ Large devices (1024px or larger)
     margin-left: auto;
     margin-right: auto
   }
-
-
 }
 
 /* ==============================
