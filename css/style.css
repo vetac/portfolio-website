@@ -51,6 +51,10 @@ nav > ul {
   padding: 0;
 }
 
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
 nav > ul > li > a {
   margin: 0px 24px;
   padding-bottom: 5px;
