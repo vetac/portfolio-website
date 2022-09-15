@@ -382,7 +382,7 @@ Medium devices (640px and larger)
   }
 
   .navtoggle li:not(:last-child) {
-    display: none;
+    display: inline-block;
   }
   
   main {
