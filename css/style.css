@@ -55,6 +55,18 @@ nav > ul {
   display: none;
 }
 
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+}
+
 nav > ul > li > a {
   margin: 0px 24px;
   padding-bottom: 5px;
