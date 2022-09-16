@@ -44,6 +44,7 @@ header {
 nav > ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 .navtoggle li:not(:last-child) {
@@ -382,6 +383,10 @@ Medium devices (640px and larger)
   nav {
     width: auto;
     float: right;
+  }
+
+  nav > ul {
+    margin: 1em 0;
   }
 
   nav > ul > li {
