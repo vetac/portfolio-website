@@ -67,10 +67,6 @@ nav > ul {
   height: 24px;
 }
 
-.navtoggle.responsive li  {
-  display: block;
-}
-
 .navtoggle.responsive nav {
   padding: 24px 0 0;
 }
@@ -80,6 +76,10 @@ nav > ul {
 }
 .navtoggle.responsive li:last-child  {
   padding: 0 0 10px;
+}
+
+.navtoggle.responsive li  {
+  display: block;
 }
 
 nav > ul > li > a {
