@@ -44,6 +44,7 @@ header {
 
 #hero p {
   text-align: center;
+  font-size: 18px;
 }
 
 #hero {
@@ -271,6 +272,10 @@ img {
 
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+
+#work .row {
+  margin-bottom: 32px;
 }
 
 .row::after {
