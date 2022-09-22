@@ -15,6 +15,15 @@ Background Color (Dark Blue): #071843;
 Background Color (Light Blue): #CCDAE5;
 */
 
+html {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+html::-webkit-scrollbar {
+  width: 0px; /* For Chrome, Safari, and Opera */
+}
+
 header {
   background-color: #FFFFFF;
   width: 100%;
