@@ -33,6 +33,11 @@ header {
   text-align: center; /* Centers text */
 }
 
+#hero p {
+  font-size: 24px;
+  text-align: center;
+}
+
 #hero {
   padding: 40px 0;
   display: inline-block;
