@@ -25,7 +25,7 @@ html::-webkit-scrollbar {
 }
 
 header {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 100%;
   padding: 10px 0 4px;
   position: fixed;
@@ -75,7 +75,8 @@ nav > ul {
   display: none;
 }
 
-.navtoggle, .navtoggle.responsive {
+.navtoggle,
+.navtoggle.responsive {
   position: relative;
 }
 
@@ -90,15 +91,15 @@ nav > ul {
 .navtoggle.responsive nav {
   padding: 24px 0 0;
 }
-.navtoggle.responsive li  {
+.navtoggle.responsive li {
   display: block;
   padding: 10px 0;
 }
-.navtoggle.responsive li:last-child  {
+.navtoggle.responsive li:last-child {
   padding: 0 0 10px;
 }
 
-.navtoggle.responsive li  {
+.navtoggle.responsive li {
   display: block;
 }
 
@@ -108,22 +109,22 @@ nav > ul > li > a {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 700;
-  color: #1C1C1E;
+  color: #1c1c1e;
   position: relative;
 }
 
 nav > ul > li > a::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 4px;
   border-radius: 4px;
-  background-color: #18272F;
+  background-color: #18272f;
   bottom: 0;
   left: 0;
   transform-origin: right;
   transform: scaleX(0);
-  transition: transform .3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 a:hover::before {
@@ -131,13 +132,15 @@ a:hover::before {
   transform: scaleX(1);
 }
 
-nav > ul > li > a:visited { /* visited link */
-    color: #1C1C1E;
+nav > ul > li > a:visited {
+  /* visited link */
+  color: #1c1c1e;
 }
-nav > ul > li > a:active { /* selected link */
-    color: #6D6D6F;
-    transform-origin: left;
-    transform: scaleX(1);
+nav > ul > li > a:active {
+  /* selected link */
+  color: #6d6d6f;
+  transform-origin: left;
+  transform: scaleX(1);
 }
 /* End of styling for nav bar (header) */
 
@@ -146,32 +149,35 @@ main {
 }
 
 body {
-    background-color: #F7F7F7;
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 16px; /* Sets the font size to 16px */
-    font-weight: 300; /* Font weight Light */
-    line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
-    color: #1C1C1E;
+  background-color: #f7f7f7;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px; /* Sets the font size to 16px */
+  font-weight: 300; /* Font weight Light */
+  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  color: #1c1c1e;
 }
-h1, h2, h3, h4 {
-    font-family: 'Oswald', sans-serif;
-    line-height: 1.4;
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Oswald", sans-serif;
+  line-height: 1.4;
 }
 h1 {
-    font-size: 2.75em;
-    font-weight: 500; /* Font weight Medium */
+  font-size: 2.75em;
+  font-weight: 500; /* Font weight Medium */
 }
 h2 {
-    font-size: 2.25em;
-    font-weight: 500; /* Font weight Medium */
+  font-size: 2.25em;
+  font-weight: 500; /* Font weight Medium */
 }
 h3 {
-    font-size: 1.75em;
-    font-weight: 400; /* Font weight Regular */
+  font-size: 1.75em;
+  font-weight: 400; /* Font weight Regular */
 }
 h4 {
-    font-size: 1.35em;
-    font-weight: 400; /* Font weight Regular */
+  font-size: 1.35em;
+  font-weight: 400; /* Font weight Regular */
 }
 
 img {
@@ -179,13 +185,12 @@ img {
 }
 
 .col-md-6 .col-lg-5 .button {
-
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.button a{
+.button a {
   display: block;
   width: fit-content;
   line-height: 40px;
@@ -197,15 +202,15 @@ img {
   text-align: center;
   position: relative;
   padding: 0px 20px;
-  transition: all .35s;
+  transition: all 0.35s;
 }
 
-.button a span{
+.button a span {
   position: relative;
   z-index: 2;
 }
 
-.button a:after{
+.button a:after {
   position: absolute;
   content: "";
   top: 0;
@@ -213,20 +218,20 @@ img {
   width: 0;
   height: 100%;
   background: #000000;
-  transition: all .35s;
+  transition: all 0.35s;
 }
 
-.button a:hover{
+.button a:hover {
   color: #fff;
 }
 
-.button a:hover:after{
+.button a:hover:after {
   width: 100%;
 }
-  
+
 #contact {
-  background-color: #1C1C1E;
-  color: #FFFFFF; 
+  background-color: #1c1c1e;
+  color: #ffffff;
   display: inline-block;
   padding: 20px 0;
   width: 100%;
@@ -246,23 +251,23 @@ img {
   line-height: 40px;
   font-size: 18px;
   text-decoration: none;
-  background-color: #FFFFFF;
-  color: #1C1C1E;
-  border: 2px solid #FFF;
+  background-color: #ffffff;
+  color: #1c1c1e;
+  border: 2px solid #fff;
   letter-spacing: 2px;
   text-align: center;
   position: relative;
   padding: 0px 20px;
-  transition: all .35s;
+  transition: all 0.35s;
 }
 
 .button.contact:hover {
-  background-color: #1C1C1E;
-  color: #FFFFFF;
+  background-color: #1c1c1e;
+  color: #ffffff;
 }
 
 .wireframe {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 /* Layout styling */
@@ -308,7 +313,7 @@ Arrow animation
   background-color: #000;
   top: 0;
   bottom: initial;
-  animation: line-animation 2.5s ease-in-out 0s infinite normal; 
+  animation: line-animation 2.5s ease-in-out 0s infinite normal;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -316,7 +321,7 @@ Arrow animation
   position: relative;
 }
 .line::before {
-  content: ' ';
+  content: " ";
   width: 16px;
   height: 16px;
   border-right: 3px solid #000;
@@ -325,20 +330,37 @@ Arrow animation
   display: block;
   position: absolute;
   bottom: 0;
-  animation: arrow-animation 2.5s ease-in-out 0s infinite normal; 
+  animation: arrow-animation 2.5s ease-in-out 0s infinite normal;
 }
 @keyframes line-animation {
-  0% {height: 0px; top: 0px; opacity: 0;}
-  50% {height: 200px; top: 0px; opacity: 1;}
-  100% {height: 0px; top: 200px; opacity: 0;}
+  0% {
+    height: 0px;
+    top: 0px;
+    opacity: 0;
+  }
+  50% {
+    height: 200px;
+    top: 0px;
+    opacity: 1;
+  }
+  100% {
+    height: 0px;
+    top: 200px;
+    opacity: 0;
+  }
 }
 
 @keyframes arrow-animation {
-  0% {opacity: 0}
-  50% {opacity: 1}
-  100% {opacity: 0}
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
-
 
 /* Styling for About.html */
 #conrent p {
@@ -351,7 +373,7 @@ Arrow animation
 }
 
 #culturico #hero {
-  background-color: #C0EDF7;
+  background-color: #c0edf7;
   padding-bottom: 0px;
   display: inline-block;
 }
@@ -363,11 +385,11 @@ Arrow animation
 }
 
 #culturico #skill-tool img {
-  max-width: 44px
+  max-width: 44px;
 }
 
 #culturico #flow-design-style {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
@@ -375,18 +397,19 @@ Arrow animation
 
 #culturico #hi-fi {
   background-color: #000522;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 #culturico #design-adjustment {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   display: inline-block;
   width: 100%;
 }
 
-#culturico #hi-fi, #final {
+#culturico #hi-fi,
+#final {
   background-color: #000522;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
@@ -399,11 +422,10 @@ Arrow animation
 
 #vestfree #hero {
   background-color: #071843;
-  color: #FFFFFF;
+  color: #ffffff;
   padding-bottom: 0px;
   display: inline-block;
 }
-
 
 #vestfree #case-study {
   padding: 20px 0;
@@ -412,17 +434,17 @@ Arrow animation
 }
 
 #vestfree #skill-tool img {
-  max-width: 44px
+  max-width: 44px;
 }
 
 #vestfree #design-adjustment {
-  background-color: #CCDAE5;
+  background-color: #ccdae5;
   display: inline-block;
   width: 100%;
 }
 
 #vestfree #style-guide {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   display: inline-block;
   width: 100%;
   padding-bottom: 20px;
@@ -430,17 +452,17 @@ Arrow animation
 
 #vestfree #hi-fi-mobile {
   background-color: #071843;
-  color: #FFFFFF;
+  color: #ffffff;
   display: inline-block;
   width: 100;
-  Padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 #vestfree #hi-fi-desktop {
-  background-color: #CCDAE5;
+  background-color: #ccdae5;
   display: inline-block;
   width: 100;
-  Padding: 20px 0px;
+  padding: 20px 0px;
 }
 
 /* ================================
@@ -478,7 +500,7 @@ Medium devices (640px and larger)
   .logo {
     max-width: 150px;
   }
-  
+
   nav {
     width: auto;
     float: right;
@@ -499,7 +521,7 @@ Medium devices (640px and larger)
   .navtoggle li:last-child {
     display: none;
   }
-  
+
   main {
     padding-top: 99px;
   }
@@ -516,7 +538,9 @@ Medium devices (640px and larger)
     width: 50%;
   }
 
-  #about h3 { margin-top: 0;}
+  #about h3 {
+    margin-top: 0;
+  }
 
   .container {
     max-width: 720px;
@@ -535,7 +559,7 @@ Large devices (1024px or larger) 7-5
   .col-lg-5 {
     width: 41.66%;
   }
-  
+
   .container {
     max-width: 960px;
     margin: 0px auto;
@@ -547,4 +571,3 @@ X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {
 }
-
