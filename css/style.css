@@ -454,14 +454,14 @@ Arrow animation
   background-color: #071843;
   color: #ffffff;
   display: inline-block;
-  width: 100;
+  width: 100%;
   padding-bottom: 20px;
 }
 
 #vestfree #hi-fi-desktop {
   background-color: #ccdae5;
   display: inline-block;
-  width: 100;
+  width: 100%;
   padding: 20px 0px;
 }
 
