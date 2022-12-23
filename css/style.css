@@ -373,15 +373,19 @@ Arrow animation
 }
 
 #culturico #hero {
-  background-color: #c0edf7;
-  padding-bottom: 0px;
+  padding-bottom: 20px;
   display: inline-block;
 }
 
 #culturico #case-study {
-  padding: 20px 0;
+  padding: 0px 60px;
   display: inline-block;
   width: 100%;
+}
+
+#culturico #conclusion {
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 #culturico #skill-tool img {
@@ -421,16 +425,19 @@ Arrow animation
 }
 
 #vestfree #hero {
-  background-color: #071843;
-  color: #ffffff;
-  padding-bottom: 0px;
+  padding-bottom: 20px;
   display: inline-block;
 }
 
 #vestfree #case-study {
-  padding: 20px 0;
+  padding: 0px 60px;
   display: inline-block;
   width: 100%;
+}
+
+#vestfree #conclusion {
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 #vestfree #skill-tool img {
@@ -471,14 +478,12 @@ Arrow animation
 }
 
 #portfolio #hero {
-  background-color: #1c1c1e;
-  color: #f7f7f7;
   padding-bottom: 20px;
   display: inline-block;
 }
 
 #portfolio #case-study {
-  padding: 20px 0;
+  padding: 0px 60px;
   display: inline-block;
   width: 100%;
 }
