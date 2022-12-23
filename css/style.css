@@ -465,6 +465,27 @@ Arrow animation
   padding: 20px 0px;
 }
 
+/* Styling for Portfolio */
+#portfolio #hero p {
+  text-align: center;
+}
+
+#portfolio #hero {
+  background-color: #1c1c1e;
+  padding-bottom: 0px;
+  display: inline-block;
+}
+
+#portfolio #case-study {
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+#portfolio #conclusion p {
+  text-align: center;
+}
+
 /* ================================
 Responsive size column pencentages
 ===================================
