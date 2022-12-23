@@ -472,7 +472,8 @@ Arrow animation
 
 #portfolio #hero {
   background-color: #1c1c1e;
-  padding-bottom: 0px;
+  color: #f7f7f7;
+  padding-bottom: 20px;
   display: inline-block;
 }
 
@@ -482,8 +483,13 @@ Arrow animation
   width: 100%;
 }
 
+#portfolio #conclusion {
+  padding: 40px 0;
+}
+
 #portfolio #conclusion p {
   text-align: center;
+  font-size: 18px;
 }
 
 /* ================================
